@@ -18,13 +18,14 @@ Cleaning: The Python script (pandy.py) was used to perform the following steps:
 Purpose: Data was loaded into a MySQL database (amazon_data schema) to leverage SQL for efficient pre-aggregation.
 
 Logic: The script (MySQL_code) created four optimized views to manage complexity and improve dashboard performance:
-1.daily_sales_summary (For time trends)
-2.state_performance (For geospatial analysis)
-3.product_performance (For top seller analysis)
-4.fulfilment_summary (For operational analysis)
+1. daily_sales_summary (For time trends)
+2. state_performance (For geospatial analysis)
+3. product_performance (For top seller analysis)
+4. fulfilment_summary (For operational analysis)
 
 ---
 3. Dashboard Components
+
 Visual Component:
 1. KPI Cards ::: Total Revenue, Total Orders, AOV.
 2.Line Chart ::: Daily Revenue Trends (Seasonal spikes/drops). ~~daily_sales_summary
