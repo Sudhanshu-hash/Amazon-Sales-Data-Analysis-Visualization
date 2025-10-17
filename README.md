@@ -18,13 +18,12 @@ Logic: The script (MySQL_code) created four optimized views to manage complexity
 *product_performance (For top seller analysis)
 *fulfilment_summary (For operational analysis)
 ---
-3. Key Findings and Dashboard Components
-   Visual Component________Insight Provided______________________________________SQL View Used
-  *KPI Cards:______________Total Revenue, Total Orders, AOV._____________________All Views
-  *Line Chart:_____________Daily Revenue Trends (Seasonal spikes/drops)._________daily_sales_summary
-  *Ranked Bar Chart:_______Top 10 Best Selling Product Categories/SKUs.__________product_performance
-  *Filled Map:_____________Geographical performance ranking by state revenue.____state_performance
-  *Donut Chart:____________Operational Efficiency by fulfillment types.__________fulfilment_summary
+3. Dashboard Components
+  *KPI Cards::: Total Revenue, Total Orders, AOV.
+  *Line Chart::: Daily Revenue Trends (Seasonal spikes/drops). ~~daily_sales_summary
+  *Ranked Bar Chart::: Top 10 Best Selling Product Categories/SKUs. ~~product_performance
+  *Filled Map::: Geographical performance ranking by state revenue. ~~state_performance
+  *Donut Chart::: Operational Efficiency by fulfillment types. ~~fulfilment_summary
 ---
 4. Conclusion
 This project successfully demonstrates technical proficiency across the data stack, resulting in an accurate and performant dashboard that is ready for business decision-making.
