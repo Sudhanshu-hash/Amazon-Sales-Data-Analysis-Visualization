@@ -2,7 +2,8 @@
 
 Goal: To transform raw e-commerce sales data into an interactive Power BI dashboard, providing actionable insights into daily trends, geographical performance, top-selling products, and fulfillment efficiency.
 
-1. Data Source and Cleaning
+1. Data Source and Cleaning:
+
 Source: [https://www.kaggle.com/datasets/thedevastator/unlock-profits-with-e-commerce-sales-data]
 
 Initial Data: Raw data was stored in amazon_sale.csv.
@@ -13,6 +14,7 @@ Cleaning: The Python script (pandy.py) was used to perform the following steps:
 3. Cast 'Amount' and 'Qty' columns to numeric types for aggregation.
 ---
 2. Database (MySQL) Aggregation
+
 Purpose: Data was loaded into a MySQL database (amazon_data schema) to leverage SQL for efficient pre-aggregation.
 
 Logic: The script (MySQL_code) created four optimized views to manage complexity and improve dashboard performance:
@@ -20,17 +22,15 @@ Logic: The script (MySQL_code) created four optimized views to manage complexity
 2.state_performance (For geospatial analysis)
 3.product_performance (For top seller analysis)
 4.fulfilment_summary (For operational analysis)
+
 ---
 3. Dashboard Components
+Visual Component:
 1. KPI Cards ::: Total Revenue, Total Orders, AOV.
-  
-3. Line Chart ::: Daily Revenue Trends (Seasonal spikes/drops). ~~daily_sales_summary
-  
-5. Ranked Bar Chart ::: Top 10 Best Selling Product Categories/SKUs. ~~product_performance
-
-7. Filled Map ::: Geographical performance ranking by state revenue. ~~state_performance
-
-9. Donut Chart ::: Operational Efficiency by fulfillment types. ~~fulfilment_summary
+2.Line Chart ::: Daily Revenue Trends (Seasonal spikes/drops). ~~daily_sales_summary
+3.Ranked Bar Chart ::: Top 10 Best Selling Product Categories/SKUs. ~~product_performance
+4.Filled Map ::: Geographical performance ranking by state revenue. ~~state_performance
+5.Donut Chart ::: Operational Efficiency by fulfillment types. ~~fulfilment_summary
 ---
 4. Conclusion
 This project successfully demonstrates technical proficiency across the data stack, resulting in an accurate and performant dashboard that is ready for business decision-making.
