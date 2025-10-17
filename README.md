@@ -32,11 +32,14 @@ Visual Component:
 3.Ranked Bar Chart ::: Top 10 Best Selling Product Categories/SKUs. ~~product_performance
 4.Filled Map ::: Geographical performance ranking by state revenue. ~~state_performance
 5.Donut Chart ::: Operational Efficiency by fulfillment types. ~~fulfilment_summary
+
 ---
 4. Conclusion
+
 This project successfully demonstrates technical proficiency across the data stack, resulting in an accurate and performant dashboard that is ready for business decision-making.
 ---
 5. ***Connect with Me***
+
 If you have any questions about this project, want to discuss data strategy, or are interested in collaboration, feel free to connect!
 
 | **LinkedIn** | Sudhanshu Joshi (https://www.linkedin.com/in/sudhanshu-joshi15) |
